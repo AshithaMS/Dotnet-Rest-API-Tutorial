@@ -54,7 +54,7 @@ public JsonResult GetJson()
   ```
 Prefer return Ok(object) in most cases. JsonResult is useful for controlling formatting options.  
 
-4. 🔄 **RedirectResult / RedirectToActionResult**
+4. 🔄 **RedirectResult / RedirectToActionResult**  
 Redirects to another route or URL.
   ```bash
 public IActionResult RedirectExample()
@@ -70,7 +70,7 @@ public IActionResult RedirectToOtherAction()
 
   ```
 
-5. 🚫 **StatusCodeResult**
+5. 🚫 **StatusCodeResult**  
 Return any specific status code without body.
 
   ```bash
