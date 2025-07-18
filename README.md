@@ -20,3 +20,24 @@ This project provides a complete starter guide for **freshers** looking to build
 dotnet new webapi -n StudentAPI
 cd StudentAPI
 dotnet run
+
+Using Visual Studio
+File → New → Project → ASP.NET Core Web API
+
+Choose .NET 6 or later
+
+Name your project (e.g., StudentAPI)
+
+Check "Use Controllers" (optional: disable OpenAPI)
+
+📁 Folder Structure
+StudentAPI/
+├── Controllers/
+│   └── StudentController.cs
+├── Models/
+│   └── Student.cs
+├── Data/
+│   └── StudentRepository.cs
+├── Program.cs
+├── appsettings.json
+
