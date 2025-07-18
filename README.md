@@ -20,8 +20,7 @@ This project provides a complete starter guide for **freshers** looking to build
 dotnet new webapi -n StudentAPI
 cd StudentAPI
 dotnet run
-bash '''
-
+```
 
 Using Visual Studio
 File → New → Project → ASP.NET Core Web API
